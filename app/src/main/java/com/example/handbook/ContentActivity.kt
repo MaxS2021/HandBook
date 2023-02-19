@@ -5,6 +5,8 @@ import android.os.Bundle
 import com.example.handbook.databinding.ActivityContentBinding
 import com.example.handbook.databinding.ActivityEditBinding
 
+// Просмотр выбранной карточки, без редактирования
+
 class ContentActivity : AppCompatActivity() {
     lateinit var bind: ActivityContentBinding
     override fun onCreate(savedInstanceState: Bundle?) {
