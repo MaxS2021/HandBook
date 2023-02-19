@@ -14,15 +14,6 @@ class MainActivity : AppCompatActivity(), PlantAdapter.Listener {
     lateinit var bind: ActivityMainBinding
     private val adapter = PlantAdapter(this)
     private var editlauncher: ActivityResultLauncher<Intent>? = null
-//    private val imageIdList = listOf(
-//        R.drawable.pict1,
-//        R.drawable.pict2,
-//        R.drawable.pict3,
-//        R.drawable.pict4,
-//        R.drawable.pict5,
-//        R.drawable.pict6,
-//    )
-//    private var idx = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
