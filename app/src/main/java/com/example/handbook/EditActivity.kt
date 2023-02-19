@@ -7,6 +7,9 @@ import android.util.Log
 import android.view.View
 import com.example.handbook.databinding.ActivityEditBinding
 
+
+// Добавление нового элемента в список
+
 class EditActivity : AppCompatActivity() {
     lateinit var bind: ActivityEditBinding
     private var idxImage: Int = 0

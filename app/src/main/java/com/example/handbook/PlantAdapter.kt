@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.handbook.databinding.PlantItemBinding
 
+// Адаптер RecicleView
+
 class PlantAdapter(val listener: Listener): RecyclerView.Adapter<PlantAdapter.PlantHolder>() {
     val plantList =ArrayList<Plant>()
     class PlantHolder(item: View): RecyclerView.ViewHolder (item) {
